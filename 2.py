@@ -13,6 +13,6 @@ uso_cpu = [
 
 for i, regiao in enumerate(uso_cpu):
   if alerta_uso(regiao):
-    print(f"CPU alta na região {i+1}")
+    print(f"CPU alta, região {i+1}")
   else:
-    print(f"CPU Normal na Região {i+1}")
+    print(f"CPU Normal, Região {i+1}")
